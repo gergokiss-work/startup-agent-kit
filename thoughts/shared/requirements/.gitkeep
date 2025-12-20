@@ -1,0 +1,45 @@
+# Requirements Directory
+
+This directory contains software requirements, specs, and tickets.
+
+## Naming Convention
+
+`[ticket-id]-description.md` or `YYYY-MM-DD-description.md`
+
+Examples:
+- `ENG-1234-user-authentication.md`
+- `2025-12-20-api-rate-limiting.md`
+
+## Template
+
+```markdown
+# [Feature Name]
+
+## Overview
+[Brief description of the requirement]
+
+## User Story
+As a [user type], I want [goal] so that [benefit].
+
+## Acceptance Criteria
+- [ ] Criteria 1
+- [ ] Criteria 2
+- [ ] Criteria 3
+
+## Technical Notes
+[Any technical constraints or considerations]
+
+## Dependencies
+- [Dependency 1]
+- [Dependency 2]
+
+## Priority
+[Critical / High / Medium / Low]
+```
+
+## Workflow
+
+1. Create requirement in `thoughts/shared/requirements/`
+2. Run `/create_plan` referencing the requirement
+3. Plan is created in `thoughts/shared/plans/`
+4. Run `/implement_plan` to execute

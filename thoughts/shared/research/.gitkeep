@@ -1,0 +1,19 @@
+# Research Directory
+
+This directory contains codebase research documents created with `/research_codebase`.
+
+## Naming Convention
+
+`YYYY-MM-DD-topic.md`
+
+Example: `2025-01-15-authentication-flow.md`
+
+## Usage
+
+Use `/research_codebase [topic]` to conduct deep codebase investigation.
+
+Research documents include:
+- File locations
+- Implementation details
+- Existing patterns
+- External context

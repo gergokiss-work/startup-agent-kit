@@ -1,0 +1,21 @@
+# Plans Directory
+
+This directory contains implementation plans created with `/create_plan`.
+
+## Naming Convention
+
+`YYYY-MM-DD-description.md`
+
+Example: `2025-01-15-add-user-authentication.md`
+
+## Plan Template
+
+Plans follow a standard template with:
+- Overview
+- Current State Analysis
+- Desired End State
+- Implementation Phases
+- Success Criteria (Automated + Manual)
+- Testing Strategy
+
+Use `/create_plan` to generate properly formatted plans.
