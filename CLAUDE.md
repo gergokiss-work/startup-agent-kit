@@ -4,27 +4,27 @@ This file provides guidance to Claude Code when working with this repository.
 
 ## Repository Overview
 
-**Project Name**: [Auto-populated by setup.sh]
-**Primary Language**: [Auto-populated by setup.sh]
-**Framework**: [Auto-populated by setup.sh]
+**Project Name**: [Auto-detected by init-project.sh]
+**Primary Language**: [Auto-detected by init-project.sh]
+**Framework**: [Auto-detected by init-project.sh]
 
 ## Development Commands
 
 ```bash
 # Install dependencies
-[Auto-populated by setup.sh]
+[Auto-detected by init-project.sh]
 
 # Run development server
-[Auto-populated by setup.sh]
+[Auto-detected by init-project.sh]
 
 # Run tests
-[Auto-populated by setup.sh]
+[Auto-detected by init-project.sh]
 
 # Run linting
-[Auto-populated by setup.sh]
+[Auto-detected by init-project.sh]
 
 # Build for production
-[Auto-populated by setup.sh]
+[Auto-detected by init-project.sh]
 ```
 
 ## Available Tools

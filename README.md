@@ -113,12 +113,13 @@ startup-agent-kit/
 
 ## Key Concepts
 
-### Planning Workflow
+### Development Workflow
 
-1. **Create Plan**: `/create_plan` - Interactive plan creation
-2. **Review**: User reviews and approves the plan
-3. **Implement**: `/implement_plan` - Execute phase by phase
-4. **Verify**: Automated + manual verification at each phase
+1. **Define Requirements**: `/create_requirement` - Create or discover requirements
+2. **Create Plan**: `/create_plan` - Interactive plan creation from requirements
+3. **Research**: `/research_codebase` - Deep dive into relevant code areas
+4. **Implement**: `/implement_plan` - Execute phase by phase with verification
+5. **Commit**: `/commit` - Structured git commits
 
 ### Success Criteria
 
