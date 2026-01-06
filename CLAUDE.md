@@ -128,6 +128,33 @@ Enable for:
 - Multi-session feature development
 - Team handoffs requiring context preservation
 
+## Read Aloud Summary
+
+**IMPORTANT:** At the end of each conversation or significant task, write a TTS summary to `~/.claude/tts/summary.txt`.
+
+**Rules:**
+- Max 1-2 sentences
+- Action + result only
+- No filler words
+- Direct and factual
+
+**Format:** `[What was done]. [Key outcome or next step].`
+
+**Examples:**
+- "Fixed authentication bug. Tests passing."
+- "Created API endpoint for users. Ready for review."
+- "Researched caching options. Redis recommended."
+
+```bash
+echo "Your concise summary here." > ~/.claude/tts/summary.txt
+```
+
+**Enable/disable TTS:**
+```bash
+touch ~/.claude/tts/enabled   # Enable
+rm ~/.claude/tts/enabled      # Disable
+```
+
 ## Code Quality Standards
 
 - Follow existing patterns in the codebase
