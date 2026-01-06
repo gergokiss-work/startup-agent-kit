@@ -7,6 +7,10 @@
           {
             "type": "command",
             "command": "afplay /System/Library/Sounds/Blow.aiff"
+          },
+          {
+            "type": "command",
+            "command": ".claude/scripts/tts-reader.sh"
           }
         ]
       }
