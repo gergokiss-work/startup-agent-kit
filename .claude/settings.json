@@ -24,12 +24,24 @@
       "Bash(pytest:*)",
       "Bash(cargo test:*)",
       "Bash(cargo build:*)",
+      "Bash(mvn:*)",
+      "Bash(gradle:*)",
+      "Bash(docker build:*)",
+      "Bash(docker compose:*)",
+      "Bash(terraform plan:*)",
+      "Bash(terraform validate:*)",
+      "Bash(helm lint:*)",
+      "Bash(kubectl get:*)",
+      "Bash(kubectl describe:*)",
       "Bash(.claude/scripts/*)"
     ],
     "deny": [
       "Bash(rm -rf /)",
       "Bash(sudo:*)",
-      "Bash(chmod 777:*)"
+      "Bash(chmod 777:*)",
+      "Bash(terraform apply:*)",
+      "Bash(terraform destroy:*)",
+      "Bash(kubectl delete:*)"
     ]
   }
 }
